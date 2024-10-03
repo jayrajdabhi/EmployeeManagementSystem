@@ -1,0 +1,23 @@
+.table-container {
+  overflow-x: auto;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid black;
+ padding-top: 10px;
+ padding-bottom: 10px;
+  text-align: center;
+}
+
+.employee-table th {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+

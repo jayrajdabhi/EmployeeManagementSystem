@@ -1,0 +1,41 @@
+.employee-detail-container {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: rgb(33, 150, 243);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.detail-heading {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.detail-body .form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: bold;
+}
+
+.form-control {
+  width: calc(100% - 16px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+}
